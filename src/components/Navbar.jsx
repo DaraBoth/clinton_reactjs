@@ -48,7 +48,7 @@ const Navbar = () => {
             className="w-9 rounded-full ring-1 h-9 object-contain"
           />
           <p className="text-white text-[18px] font-bold cursor-pointer flex ">
-            Vong Pich Daraboth &nbsp;
+            Ny Clinton &nbsp;
           </p>
         </Link>
 

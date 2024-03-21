@@ -50,16 +50,10 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         <OpenAiChat
-          text={
-            `Write a greeting like this for me. 
-              | Hi everyone, my name is DaraBoth. 
-              | I'm a passionate software engineer with experience in both front-end and back-end development. 
-              | Throughout my career, I've honed my skills in a variety of technologies, 
-              | including JavaScript frameworks like AngularJS, Next.js, and React.js, along with libraries like jQuery. 
-              | For back-end development, I've utilized frameworks such as Express.js and Spring Boot with JPA, as well as templating languages like JSP and Flask. 
-              | Additionally, I possess strong database management skills, having worked extensively with PostgreSQL and MySQL.
-            Make it more friendly ,professional, funny and kind and please response as Text. `
-          }
+          text={`Write a greeting like this for me. 
+            My name Ny clinton.
+            Regarding my working experience, During these five year I was recruited as a Web Design, IT Support, UI UX, Process Improvement, Social Marketing Land Surveyor and Project coordinator. In this experience, I have learnt many things and archive from different kind of work and envoriment.
+            Make it more friendly ,professional, kind and please response as Text. `}
         />
       </motion.div>
 
@@ -108,9 +102,8 @@ export const OpenAiChat = ({ text }) => {
       }
     }
 
-
     if (about) {
-      getChat()
+      getChat();
       // setLoading(true);
       // setTimeout(() => {
       //   setApiResponse(about);
